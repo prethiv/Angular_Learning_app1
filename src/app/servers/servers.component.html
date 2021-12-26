@@ -22,3 +22,17 @@
 <p>{{serverCreationStatus}}</p>
 <app-server></app-server>
 <app-server></app-server>
+
+<label>
+    Assignment 2
+</label>
+<input 
+    type="text"
+    class="form-control"
+    [(ngModel)]="userName"
+/>
+<button class="btn btn-success"
+    [disabled]="userName.length===0"
+    (click)="ClearUserName()"
+>
+    Clear UserName</button>
