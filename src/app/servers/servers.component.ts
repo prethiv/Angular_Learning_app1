@@ -12,6 +12,11 @@ export class ServersComponent implements OnInit {
   serverName="";
   userName="";
   serverCreated=false;
+  servers=[
+    'Asia',
+    'India',
+    'USA'
+  ]
 
   constructor() {
 
